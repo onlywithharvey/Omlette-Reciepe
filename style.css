@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: "Comic Relief", system-ui;
+    min-height: 100vh;
+}
+
+
+* {
+    box-sizing: border-box;
+    }
+
+*{
+      margin: 15px;
+      padding: 0; 
+    }
+
+.recipe-image {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+  }
+
+h2 {
+    color:blue;
+
+}
+.preparation-time {
+  background-color: hsl(240, 80%, 67%); /* A light blue background */ 
+  padding: 24px;
+  border-radius: 25px;
+}
+
+.preparation-time h2 {
+  color: rgb(0, 0, 0); /* A darker rose/maroon for the heading text */
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.preparation-time ul {
+  padding-left: 20px;
+}
+
+.preparation-time li {
+  margin-bottom: 8px;
+  color: hsl(0, 0%, 0%);
+}
+
+table {
+  width: 100%;
+  /* Combines double cell borders into a single clean line */
+  border-collapse: collapse; 
+}
+
+th, td {
+  /* Adds spacing inside the cells for readability */
+  padding: 12px; 
+  /* Aligns text left (headers are centered by default) */
+  text-align: left; 
+  /* Adds subtle grid lines between cells */
+  border-bottom: 3px solid #ddd; 
+}
+
+
+li::marker {
+  color: blue;
+}
