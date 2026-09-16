@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+* {
+    box-sizing: border-box;
+    }
 
 body {
     background-color: #f0f0f0;
@@ -12,14 +15,7 @@ body {
 }
 
 
-* {
-    box-sizing: border-box;
-    }
 
-*{
-      margin: 15px;
-      padding: 0; 
-    }
 
 .recipe-image {
     border-radius: 25px;
@@ -70,4 +66,13 @@ th, td {
 
 li::marker {
   color: blue;
+}
+
+
+/**media Query**/
+@media (max-width: 800px) {
+  .recipe-image {
+    width: 100%;
+    height: auto;
+  }
 }
